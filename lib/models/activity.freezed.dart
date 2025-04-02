@@ -84,7 +84,7 @@ as double,
 @JsonSerializable()
 
 class _Activity implements Activity {
-   _Activity({required this.key, required this.activity, required this.type, required this.participants, required this.price});
+  const _Activity({required this.key, required this.activity, required this.type, required this.participants, required this.price});
   factory _Activity.fromJson(Map<String, dynamic> json) => _$ActivityFromJson(json);
 
 @override final  String key;

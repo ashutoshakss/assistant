@@ -6,6 +6,7 @@ part 'activity.g.dart';
 
 @freezed
 sealed class Activity with _$Activity {
+
   factory Activity({
     required String key,
     required String activity,
